@@ -10,7 +10,7 @@ def getMinPosInt(array):
 		else:
 			candidate = candidate + 1
 
-print(getMinPosInt(range(1,100000)))
-print(getMinPosInt(range(1,50000)))
+print(getMinPosInt(xrange(1,100000)))
+print(getMinPosInt(xrange(1,50000)))
 print(getMinPosInt([1,3000,10000,20000,40000]))
 print(getMinPosInt([1,3,5]))
